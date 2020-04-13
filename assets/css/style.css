@@ -1,0 +1,56 @@
+nav {
+    background-color: rgb(251, 84, 197);
+    height: 60px;
+}
+
+body {
+    background-image: url("https://previews.123rf.com/images/helenlane/helenlane1605/helenlane160500115/57225819-retro-vintage-80s-or-90s-fashion-style-abstract-seamless-pattern-background-good-for-textile-fabric-.jpg");
+    background-size: 400px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 60px;
+    padding: 0px 10px;
+    
+
+}
+
+a:first-child {
+    border-right: 5px solid black;
+}
+
+a:hover {
+    color:rgb(35, 85, 254);
+    font-weight: bold;
+    font-size: 33px;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+    background-color:yellow;
+    border: 10px dotted rgb(35, 85, 254);
+    height: calc(100vh - 0px);
+    width: 900px;
+    margin: auto;
+    
+}
+
+.inner-content {
+    display: inline-block;
+    text-align:left;
+    width: 40%;
+}
+
+footer {
+    background-color:rgb(35, 85, 254);
+    height: 60px;
+    padding-top: 80px;
+    text-align: center;
+    color: yellow;
+}
